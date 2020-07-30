@@ -1,0 +1,17 @@
+.footer{
+   
+    font-family: "Quicksand";
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+
+}
+.link{
+    color: #fff;
+    font-family: "Quicksand";
+}
+.link:hover{
+    color: rgb(245, 245, 245);
+}
+.sosmed{
+    background-color:rgba(245, 245, 245, 0.1);
+}

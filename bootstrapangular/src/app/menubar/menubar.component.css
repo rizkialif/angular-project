@@ -1,0 +1,17 @@
+.aturjarak{
+    margin: 2em;
+}
+.font{
+    font-family: "Quicksand";
+}
+.btn-cari {
+    color: #fff;
+    background-color: #d80707;
+    border-color: #d80707;
+}
+  
+.btn-cari:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}

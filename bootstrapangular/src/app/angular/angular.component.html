@@ -1,0 +1,26 @@
+<div class="container-fluid">
+
+    <div class="page-header atas">
+      <h3>User Data</h3><hr class="garis">
+    </div>
+  <div class="row">
+      <table class="table table-hover" id="customers">
+          <thead>
+          <tr>
+            <th>No</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Website</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let user of users$ let rank of peringkat">
+              <td>{{ rank.no }}</td>
+              <td>{{ user.name }}</td>
+              <td>{{ user.email }}</td>
+              <td>{{ user.website }}</td>
+          </tr>
+          </tbody>
+      </table>
+  </div>
+</div>
